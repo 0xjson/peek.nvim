@@ -1,6 +1,7 @@
 public/*
 !public/index.html
 !public/style.css
+!public/custom.js
 .luarc.json
 peek.log
 deno.lock
