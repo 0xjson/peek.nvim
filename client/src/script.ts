@@ -62,10 +62,10 @@ addEventListener('DOMContentLoaded', () => {
     };
     const plain: Record<string, () => void> = {
       'j': () => {
-        window.scrollBy({ top: 50 });
+        window.scrollBy({ top: -50 });
       },
       'k': () => {
-        window.scrollBy({ top: -50 });
+        window.scrollBy({ top: 50 });
       },
       'd': () => {
         window.scrollBy({ top: window.innerHeight / 2 });
